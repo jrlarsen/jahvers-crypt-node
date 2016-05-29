@@ -3,7 +3,7 @@ A single-player text-based adventure game
 
 ## Play the game
 The game is live on heroku:
-[Jahver's Crypt](jahvers-crypt.heokuapp.com/theCrypt.html)
+[Jahver's Crypt](https://jahvers-crypt.heokuapp.com/theCrypt.html)
 
 ## Commands
 For example:
