@@ -4,17 +4,13 @@
     function render (data) {
         theCrypt.placeView.render(data.place);
         theCrypt.playerView.render(data.player);
-        if (data.messages !== undefined) {
-            renderMessages(data.messages);
+        if (data.messages && data.messages.length) {
+            renderMessage(data.messages.join('<br />'));
         }
     }
 
     function renderMessage (message) {
         theCrypt.messageView.render(message);
-    }
-    
-    function renderMessages (messages) {
-        messages.forEach(renderMessage);
     }
 
     function init () {

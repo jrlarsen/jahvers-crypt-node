@@ -3,11 +3,6 @@
   "version": "1.0.0",
   "description": "A text-based adventure game",
   "main": "index.js",
-  "scripts": {
-    "start": "node index"
-  },
-  "author": "John Larsen jahver@room51.co.uk",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.13.4"
   }

@@ -103,6 +103,7 @@ function go (req, res) {
                 player.applyDamage(challenge.damage);
             }
             game.addMessage(challenge.message);
+            game.checkStatus();
         }
     }
 
